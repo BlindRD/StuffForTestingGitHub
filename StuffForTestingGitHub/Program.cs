@@ -14,7 +14,9 @@ namespace StuffForTestingGitHub
 
             Console.WriteLine("Square of 25 is >> "+thing.sqr(25));
 
-            Console.WriteLine(thing.str("string"));            
+            Console.WriteLine(thing.str("string"));
+
+            thing.hiGitHub();        
         }
 
         int sqr(int a)
