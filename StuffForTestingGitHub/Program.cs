@@ -26,5 +26,13 @@ namespace StuffForTestingGitHub
         {
             return a + " << this is \"string\"";
         }
+
+        // This method will be push into GitHub
+        void hiGitHub()
+        {
+            Console.WriteLine();
+            Console.WriteLine("=============");
+            Console.WriteLine("Hello GitHub!");
+        }
     }
 }
