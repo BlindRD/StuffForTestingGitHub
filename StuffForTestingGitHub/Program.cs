@@ -10,6 +10,21 @@ namespace StuffForTestingGitHub
     {
         static void Main(string[] args)
         {
+            Program thing = new Program();
+
+            Console.WriteLine("Square of 25 is >> "+thing.sqr(25));
+
+            Console.WriteLine(thing.str("string"));            
+        }
+
+        int sqr(int a)
+        {
+            return a * a;
+        }
+
+        string str(string a)
+        {
+            return a + " << this is \"string\"";
         }
     }
 }
